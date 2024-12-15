@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/44ad36a76d.js" crossorigin="anonymous"></script>
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <aside id="aside">
+            <h1 id="side-container-header"><i class="fa-regular fa-circle-user"></i> Dashboard</h1>
+            <ul class="side-menu">
+                <li><a href="#"><i class="fa-solid fa-house-user" style="margin-left: -2px;"></i> Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-user" style="margin-left: 2px;"></i> Profile</a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i> Messages</a></li>
+                <li><a href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+                <li><a href="#"><i class="fa-solid fa-list-check"></i> Tasks</a></li>
+                <li><a href="#"><i class="fa-solid fa-user-group"></i> Communities</a></li>
+            </ul>
+            <ul class="side-menu-miscellaneous">
+                <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i> Support</a></li>
+                <li><a href="#"><i class="fa-solid fa-shield-halved"></i> Privacy</a></li>
+            </ul>
+        </aside>
+        <nav id="nav">
+            <div class="header-search">
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="profile-bar">
+                    <button type="button" id="notification-bell"><i class="fa-regular fa-bell"></i></button>
+                    <button type="button" id="light-toggle"><i class="fa-regular fa-sun" id="toggle-icon"></i></button>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_bby1V2t7BQO3mlXUpYuzo7q1ncVOfKOpcg&s" class="profile-image" alt="Profile Image">
+                    <p>@Wanji</p>
+                </div>
+            </div>
+            <div class="header-profile">
+                <div class="welcome">
+                    <div class="welcome-message-icon">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_bby1V2t7BQO3mlXUpYuzo7q1ncVOfKOpcg&s" class="profile-image" alt="Welcome Message Icon">
+                    </div>
+                    <div class="welcome-message">
+                        <p>Hi there,</p>
+                        <h1>William (@Wanji)</h1>
+                    </div>
+                </div>
+                <div class="header-buttons">
+                    <button type="button" class="button" id="newBtn">New</button>
+                    <button type="button" class="button" id="uploadBtn">Upload</button>
+                    <button type="button" class="button" id="shareBtn">Share</button>
+                </div>
+            </div>
+        </nav>
+        <section id="section">
+            <div class="project-list">
+                <div class="project-title">
+                    <h1>Your Projects</h1>
+                </div>
+                    <div class="card-lists">
+                        <div class="project-card">
+                            <hr class="project-color">
+                            <img src="https://private-user-images.githubusercontent.com/174935759/366059938-f353c150-72cb-48a4-bfb1-928d5635c384.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQyNTQ2ODIsIm5iZiI6MTczNDI1NDM4MiwicGF0aCI6Ii8xNzQ5MzU3NTkvMzY2MDU5OTM4LWYzNTNjMTUwLTcyY2ItNDhhNC1iZmIxLTkyOGQ1NjM1YzM4NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIxNVQwOTE5NDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNGZkZDcxYmNmOGE3MzFkMmE3NDNjMzk0ZjgwOGVmNzI1OGUwYWVjNmZlNDExNzI1NjM2YzczNjJmYTBjZDAzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.5z0tgYIX40FpkUG-yuhTo5L-H0iba578mKMZmhxupkU" class="trending-users">
+                            <h1>To-Do List</h1>
+                            <p>To-Do List Maker is a simple and efficient tool to help you manage your daily tasks. Quickly add, edit, and remove items with ease, keeping your day organized and productive. Stay on top of your tasks with a clean, user-friendly interface.</p>
+                            <div class="project-card-buttons">
+                                <button type="button" class="card-button" id="edit-Btn"><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button type="button" class="card-button" id="fav-Btn"><i class="fa-regular fa-star" id="fav-icon"></i></button>
+                                <button type="button" class="card-button" id="delete-Btn"><i class="fa-solid fa-trash"></i></button>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <hr class="project-color">
+                            <img src="https://private-user-images.githubusercontent.com/174935759/371824044-d4e77562-a9b2-438a-b741-d2ca91d0fb48.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQyNTQ2NTQsIm5iZiI6MTczNDI1NDM1NCwicGF0aCI6Ii8xNzQ5MzU3NTkvMzcxODI0MDQ0LWQ0ZTc3NTYyLWE5YjItNDM4YS1iNzQxLWQyY2E5MWQwZmI0OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIxNVQwOTE5MTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kYjRlNWFjNzhjOTIxYzJjZWNjODlhYzJhZjZhOTEwZDAzMjAyNDMzYjdmYmM0NTQ1ZmVmMDZhNjExM2I5ZjJjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9._7csK8GW2yMjkYeAtUtXeW-Z6FPVw887zvjjCvNmFdE" class="trending-users">
+                            <h1>Calcify</h1>
+                            <p>Our online calculator makes solving problems quick and easy! Simply enter your numbers, choose the operation (add, subtract, multiply, divide, or more advanced functions), and get instant results. With a clean, user-friendly interface, it’s perfect for students.</p>
+                            <div class="project-card-buttons">
+                                <button type="button" class="card-button" id="editBtn"><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button type="button" class="card-button" id="favBtn"><i class="fa-regular fa-star"></i></button>
+                                <button type="button" class="card-button" id="deleteBtn"><i class="fa-solid fa-trash"></i></button>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <hr class="project-color">
+                            <img src="https://private-user-images.githubusercontent.com/174935759/370295994-70b37ea0-e121-4aeb-bda0-a342c486122b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQyNTQ0ODQsIm5iZiI6MTczNDI1NDE4NCwicGF0aCI6Ii8xNzQ5MzU3NTkvMzcwMjk1OTk0LTcwYjM3ZWEwLWUxMjEtNGFlYi1iZGEwLWEzNDJjNDg2MTIyYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIxNVQwOTE2MjRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNTFiMTM4ZjI5YjQ0OTIxNTk5ODMzMzI5M2E3Yjc4YWU0ODg0YWVjYWFmNjNkMDkzOWQ3NWVjZTFiYTNiZTM2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.CT6839XQ7Ne5eDujOa18LQ_Oj-UtSSCzhL6tnUQ4qKs" class="trending-users">
+                            <h1>paintWeb</h1>
+                            <p>Unleash your creativity one pixel at a time! Our pixel painting website lets you design stunning art effortlessly. Simply select your canvas size, choose colors from a vibrant palette, and click to fill each pixel. Perfect for beginners and kids.</p>
+                            <div class="project-card-buttons">
+                                <button type="button" class="card-button" id="editBtn"><i class="fa-regular fa-pen-to-square"></i></button>
+                                <button type="button" class="card-button" id="favBtn"><i class="fa-regular fa-star"></i></button>
+                                <button type="button" class="card-button" id="deleteBtn"><i class="fa-solid fa-trash"></i></button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        <div class="content-right">
+            <h1 class="announcement-title">Announcements</h1>
+            <div class="content-announcement">
+                <div class="announcement">
+                    <h1>Announcement Title 1</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <hr class="announcement-divider">
+                </div>
+                <div class="announcement">
+                    <h1>Announcement Title 2</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <hr class="announcement-divider">
+                </div>
+                <div class="announcement">
+                    <h1>Announcement Title 3</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <hr class="announcement-divider">
+                </div>
+            </div>
+            <h1 class="trending-users-title">Trending Users</h1>
+            <div class="content-trending">
+                <div class="user-trending">
+                    <div class="user-trending-image">
+                        <img src="https://avatarfiles.alphacoders.com/329/329369.jpg" alt="Trending User">
+                    </div>
+                    <div class="user-trending-info">
+                        <h4>@User</h4>
+                        <p>Project Description</p>
+                    </div>
+                </div>
+                <div class="user-trending">
+                    <div class="user-trending-image">
+                        <img src="https://i.pinimg.com/1200x/4a/a0/85/4aa08588f788128ab892d4de72d09f84.jpg" alt="Trending User">
+                    </div>
+                    <div class="user-trending-info">
+                        <h4>@User</h4>
+                        <p>Project Description</p>
+                    </div>
+                </div>
+                <div class="user-trending">
+                    <div class="user-trending-image">
+                        <img src="https://cdn.hero.page/pfp/01409bb2-7e2f-4208-b44b-4aec283bd96c-anime-character-with-red-background-diverse-selection-of-anime-pfp-dark-aesthetic-4.png" alt="Trending User">
+                    </div>
+                    <div class="user-trending-info">
+                        <h4>@User</h4>
+                        <p>Project Description</p>
+                    </div>
+                </div>
+                <div class="user-trending">
+                    <div class="user-trending-image">
+                        <img src="https://wallpapers.com/images/hd/anime-pfp-pictures-k67w5w2uxro4irhs.jpg" alt="Trending User">
+                    </div>
+                    <div class="user-trending-info">
+                        <h4>@User</h4>
+                        <p>Project Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
