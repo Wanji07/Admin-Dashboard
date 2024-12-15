@@ -2,7 +2,8 @@
 - An attempt at the Admin Dashboard Activity in Odin Project.
 
 # Dark Mode
-![image](https://github.com/user-attachments/assets/74726490-78e8-4ad6-86dc-4457a92c0c29)
+![image](https://github.com/user-attachments/assets/1304d138-5419-4746-a416-e5d4fb8718e5)
 
 # Light Mode
-![image](https://github.com/user-attachments/assets/825aa16c-2f65-4662-bdae-e02c61d3f2da)
+![image](https://github.com/user-attachments/assets/4366039f-41fb-42a1-adbc-2dfe91330d0b)
+
