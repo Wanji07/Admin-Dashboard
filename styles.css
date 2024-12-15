@@ -402,6 +402,10 @@ section {
     color: black;
 }
 
+.light-mode-card button {
+    color: rgb(80, 79, 79);
+}
+
 .light-mode-card p {
     color: rgb(109, 108, 108)
 }
